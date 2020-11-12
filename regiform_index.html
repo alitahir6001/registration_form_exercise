@@ -1,0 +1,77 @@
+<!-- use ! or shortcut for boilerplate html page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali Tahir registration Form</title>
+    <link rel= "stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <form>
+    <h1>My Registration Form</h1>
+    <h2 class="second_color">Using what I learned in HTML and CSS</h2>
+    <!--<h3 id="thirdcolor">Yup yup</h3></!-->
+    <div>
+        <h4>Enter your information below to register</h4>
+        <div style="border: 3px solid black">
+        <label>
+            First Name:<input type="text" name="firstname">
+        </label>
+    </div>
+    <br>
+        <label>
+            <div style="border: 3px solid black">
+            Last Name:<input type="text" name="lastname">
+        </label>
+    </div>
+    <br>
+        <label>
+            <div style="border: 3px solid black">
+            Email Address:<input type="text" name="email">
+        </label>
+    </div>
+    <br>
+        <label>
+            <div style="border: 3px solid black">
+            Password:<input type="password" name="pass">
+        </label>    
+    </div>
+    <br>
+        <label>
+            <div style="border: 3px solid black">
+            Password Confirm:<input type="password" name="passconfirm">
+        </label>    
+    </div>
+    <br>
+        <label>
+            <div style="border: 3px solid black">
+            Date of Birth:<input type="date" name="birthday">
+        </label>    
+    </div>
+    <br>
+    <label>
+        Male<input type="radio" name="gender" value="male"> 
+    </label>
+    <label>
+        Female<input type="radio" name="gender" value="female">
+    </label>
+    <label>
+        Prefer not to say<input type="radio" name="gender" value="decline">
+    </label>
+    <p>Say a few words about yourself:</p>
+    <textarea name="description"></textarea>
+    <br>
+    <div>
+        <label>What are you most excited to learn?
+            <select name="excitedabout">
+                <option value="javaScript">Javascript</option>
+                <option value="webfun">HTML and CSS</option>
+                <option value="python">Python</option>
+                <option value="mern">Mern</option>
+    </div>
+<br>
+    <input type="submit" value="Click here to register">
+</form>
+</body>
+</html>
